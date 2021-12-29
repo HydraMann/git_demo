@@ -20,7 +20,7 @@ namespace Feladat_1
             FlagDrawer f1 = new FlagDrawer(1, ConsoleColor.Red);
             FlagDrawer f2 = new FlagDrawer(2, ConsoleColor.White);
             FlagDrawer f3 = new FlagDrawer(3, ConsoleColor.Green);
-            //comment
+            
             Thread t1 = new Thread(() => f1.Draw(IsFilled));
             Thread t2 = new Thread(() => f2.Draw(IsFilled));
             Thread t3 = new Thread(() => f3.Draw(IsFilled));
